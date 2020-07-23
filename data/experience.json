@@ -1,0 +1,20 @@
+[
+    {
+        "role":"AI Developer",
+        "company":"Areli Commerce Private Limited",
+        "summary":"\n- Working on Recommendation Engines using algorithms like Item-based collaborative filtering.\n- Building ETL pipelines consisting of stages of Data Ingestion, Feature Engineering, Model Training and Deployment",
+        "range":"April 2019 - Present"
+    },
+    {
+        "role":"AI Developer",
+        "company":"Turabit Solutions Private Limited",
+        "summary":"\n- Worked on development of chatbots and developed API to make the chatbot install software applications on target machine as well as schedule the chatbot to perform a certain function at a time selected by the user.\n- Trained ML Models to perform text classification and determine the intent of the user query and trigger the necessary functions required to complete the requested task",
+        "range":"June 2018 - March 2019"
+    },
+    {
+        "role":"Data Science Intern",
+        "company":"SoftVan Inc.",
+        "summary":"\n- Trained ML models for Insurance Fraud Detection, Loan Default Detection, Unsupervised Clustering as well as Object Detection using various architectures such as ResNet, AlexNet, and YOLO.",
+        "range":"December 2017 - May 2018"
+    }
+]

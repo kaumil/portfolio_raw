@@ -1,0 +1,19 @@
+
+<h3 class="mb-3 text-primary">{{ .Title }}</a></h3>
+<h4 class="mb-4">Issuing Organization: {{.Params.organization}}</h4>
+<h4 class="mb-4">Validity: {{.Params.issueddate}} - {{.Params.expireddate}}</h4>
+
+<div class="resume-item d-flex flex-column flex-md-row mb-3">
+
+  <div class="resume-date">
+    <p>{{ .Description | safeHTML }}<p>
+    <p class><a href="{{.Params.link}}">View Credential</a></p>
+  </div>
+  <div class="resume-content " style="width:200px;!important;">
+    {{with  .Params.image }}
+      <img src="{{ . }}" style="max-height:150px;max-width:150px;"/>
+    {{ end }}
+  </div>
+
+</div>
+<div>{{ partial "techtags" . }}</div>

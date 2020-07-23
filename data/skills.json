@@ -1,0 +1,34 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[ "Data Science","Machine Learning","Deep Learning","Software Development","Microservices","RESTful APIs"]
+  },{
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Python","git"]
+  },
+  {
+      "grouping":"Libraries & Frameworks",
+      "skills":[
+        {"name":"Tensorflow","icon":"tensorflow"},
+        {"name":"PyTorch","icon":"pytorch"},
+        {"name":"Keras","icon":"keras"},
+        {"name":"Django","icon":"django"},
+        {"name":"Flask","icon":"flask"},
+        {"name":"Elasticsearch","icon":"elasticsearch"}
+      ]
+  },
+  {
+      "grouping":"Databases",
+      "skills":[
+        {"name":"MySQL","icon":"mysql"},
+        {"name":"MongoDB","icon":"mongodb"}
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker"},
+          {"name":"AWS"}
+      ]
+  }
+]

@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="publication-content mr-auto">
+    <h2 class="mb-0"><span class="text-primary">{{ .Title }}</span></h2>
+    <span class="text-primary">{{ .Params.date | dateFormat "January 2006" }}</span>
+    <p><a href="{{.Params.link}}">Link to the full {{.Params.pubtype}}</a></p>
+    <div>{{ .Content | safeHTML }}</div>
+    <p>{{ partial "techtags" . }}</p>
+  </div>
+</section>
+{{ end }}
