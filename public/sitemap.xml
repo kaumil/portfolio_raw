@@ -265,11 +265,19 @@
   </url>
   
   <url>
+    <loc>https://kaumil.github.io/portfolio/projects/creations/flask_microblog/</loc>
+  </url>
+  
+  <url>
     <loc>https://kaumil.github.io/portfolio/tags/data-structures/</loc>
   </url>
   
   <url>
     <loc>https://kaumil.github.io/portfolio/tags/deep-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/tags/elasticsearch/</loc>
   </url>
   
   <url>
@@ -299,6 +307,10 @@
   
   <url>
     <loc>https://kaumil.github.io/portfolio/tags/spark-mllib/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/tags/sqlalchemy/</loc>
   </url>
   
   <url>

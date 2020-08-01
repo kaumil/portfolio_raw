@@ -57,5 +57,15 @@
       <description>Analysis of the 20 NewsGroup Dataset followed by lemmatization and k-means clustering and non-negative matrix factorization for topic modelling</description>
     </item>
     
+    <item>
+      <title>Blogging website</title>
+      <link>https://kaumil.github.io/portfolio/projects/creations/flask_microblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/projects/creations/flask_microblog/</guid>
+      <description>Established a mechanism for a user to follow different people and have the posts of the followed people on the home page. Established an &amp;ldquo;Explore&amp;rdquo; feature where a user can explore different posts from all the users on the website in a descending order of the post timestamp. Established a &amp;ldquo;Search&amp;rdquo; feature using Elasticsearch where people can search for a keyword and have relevant posts displayed.
+Github link: https://github.com/kaumil/flask-blog</description>
+    </item>
+    
   </channel>
 </rss>

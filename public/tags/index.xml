@@ -300,6 +300,15 @@
     </item>
     
     <item>
+      <title>Elasticsearch</title>
+      <link>https://kaumil.github.io/portfolio/tags/elasticsearch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Markov Models</title>
       <link>https://kaumil.github.io/portfolio/tags/markov-models/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -350,6 +359,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaumil.github.io/portfolio/tags/spark-mllib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQLAlchemy</title>
+      <link>https://kaumil.github.io/portfolio/tags/sqlalchemy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/tags/sqlalchemy/</guid>
       <description></description>
     </item>
     
