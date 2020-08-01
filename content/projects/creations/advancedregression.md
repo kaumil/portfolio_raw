@@ -7,7 +7,7 @@
   "description": "Performed EDA on the Advanced Regression: House pricing dataset on Kaggle. Examined various properties like normality, skewness, kurtosis as well as performed log transformations and analyzed the differences using a normal probability plot.",
   "tags": ["Regression","scikit-learn", "EDA", "statistical machine learning"],
   "fact": "",
-  "featured": true
+  "featured": false
 }
 
 Performed EDA on the Advanced Regression: House pricing dataset on Kaggle. Examined various properties like normality, skewness, kurtosis as well as performed log transformations and analyzed the differences using a normal probability plot.
