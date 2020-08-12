@@ -27,6 +27,12 @@
          {{ partial "sectionSummary" . }}
       {{ end }}
    {{ end }}
+   {{ if .Site.Params.showArticles }}
+      {{ with .Site.GetPage "section" "articles" }}
+         {{ .Scratch.Set "sectionId" (default "Articles" .Site.Params.articlesAlternateName) }}
+         {{ partial "sectionSummary" . }}
+      {{ end }}
+   {{ end }}
    {{ if .Site.Params.showExperience }}
        {{ partial "portfolio/experience.html" . }}
    {{ end }}

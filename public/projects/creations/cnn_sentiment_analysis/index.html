@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Kaumil Trivedi | Classification</title>
-  <meta property="og:title" content="Kaumil Trivedi | Classification" />
+  <title>Kaumil Trivedi | Sentiment Analyzer</title>
+  <meta property="og:title" content="Kaumil Trivedi | Sentiment Analyzer" />
   <meta property="og:image" content="https://kaumil.github.io/portfolio/img/profile_pic.jpg" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="Created a service based on a Tensorflow model which employs Convolutional Neural Networks to perform sentiment analysis to do binary classification. Used TfServing and Docker to orchestrate modeling as well as inference pipeline">
+  <meta property="og:description" content="Created a service based on a Tensorflow model which employs Convolutional Neural Networks to perform sentiment analysis to do binary classification. Used TfServing and Docker to orchestrate modeling as well as inference pipeline" />
   <meta name="author" content="Kaumil Trivedi">
   
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -89,26 +89,63 @@
 
   <div class="container-fluid p-0">
     
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://kaumil.github.io/portfolio/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://kaumil.github.io/portfolio/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://kaumil.github.io/portfolio/projects/creations/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://kaumil.github.io/portfolio/projects/creations/cnn_sentiment_analysis/">Sentiment Analyzer</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
 
 <section class="resume-section p-3 p-lg-5 d-flex d-column">
   <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">Sentiment Analyzer</span></h2>
+    <p>Sentiment Analyzer is a ML model as a service made using Flask micro framework. The task is a binary classification problem where I employed CNNs to have a validation accuracy of 84.73% and validation loss of 0.3624. The application serves 2 pipeline: 1 pipeline where the model versions are trained using the jupyter notebook in the sentiment_analysis subfolder. The second pipeline is the inference pipeline where using a config file, Tensorflow Serving is used to deploy that model on a different docker container. The flask and tensorflow container are deployed on the same subnet and orchestrated via docker-compose.</p>
 
-  Content tagged with  <span class="tag">Classification</span>
-    <ul>
-      
-          <li>
-             <a href="https://kaumil.github.io/portfolio/publications/binaryclassifier/">A Hybrid Binary Classifier for Pattern Classification</a>
-         </li>
-      
-          <li>
-             <a href="https://kaumil.github.io/portfolio/projects/creations/frauddetection/">Fraud Detection</a>
-         </li>
-      
-          <li>
-             <a href="https://kaumil.github.io/portfolio/projects/creations/cnn_sentiment_analysis/">Sentiment Analyzer</a>
-         </li>
-      
-    </ul>
+    <p>Project link: <a href="https://github.com/kaumil/cnn_sentiment_analysis">https://github.com/kaumil/cnn_sentiment_analysis</a></p>
+    <ul class="tags">
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/flask">Flask</a></li>
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/tensorflow">Tensorflow</a></li>
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/convolutional-neural-networks">Convolutional Neural Networks</a></li>
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/tfserving">TfServing</a></li>
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/docker">Docker</a></li>
+    
+      <li><a class="tag" href="https://kaumil.github.io/portfolio/tags/classification">Classification</a></li>
+    
+</ul>
+
   </div>
 </section>
 

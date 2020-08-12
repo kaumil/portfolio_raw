@@ -38,6 +38,11 @@
             <a class="nav-link js-scroll-trigger" href="/#{{ default "Publications" .Site.Params.publicationsAlternateName }}">{{ default "Publications" .Site.Params.publicationsAlternateName }}</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showArticles }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#{{ default "Articles" .Site.Params.articlesAlternateName }}">{{ default "Articles" .Site.Params.articlesAlternateName }}</a>
+          </li>
+      {{ end }}
       {{ if .Site.Params.showExperience }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>

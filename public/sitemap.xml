@@ -277,6 +277,10 @@
   </url>
   
   <url>
+    <loc>https://kaumil.github.io/portfolio/tags/docker/</loc>
+  </url>
+  
+  <url>
     <loc>https://kaumil.github.io/portfolio/tags/elasticsearch/</loc>
   </url>
   
@@ -302,6 +306,10 @@
   </url>
   
   <url>
+    <loc>https://kaumil.github.io/portfolio/projects/creations/cnn_sentiment_analysis/</loc>
+  </url>
+  
+  <url>
     <loc>https://kaumil.github.io/portfolio/tags/sequence-models/</loc>
   </url>
   
@@ -311,6 +319,14 @@
   
   <url>
     <loc>https://kaumil.github.io/portfolio/tags/sqlalchemy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/tags/tensorflow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/tags/tfserving/</loc>
   </url>
   
   <url>

@@ -300,6 +300,15 @@
     </item>
     
     <item>
+      <title>Docker</title>
+      <link>https://kaumil.github.io/portfolio/tags/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Elasticsearch</title>
       <link>https://kaumil.github.io/portfolio/tags/elasticsearch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -368,6 +377,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaumil.github.io/portfolio/tags/sqlalchemy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>https://kaumil.github.io/portfolio/tags/tensorflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TfServing</title>
+      <link>https://kaumil.github.io/portfolio/tags/tfserving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaumil.github.io/portfolio/tags/tfserving/</guid>
       <description></description>
     </item>
     
