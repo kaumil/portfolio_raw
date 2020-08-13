@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kaumil.github.io/portfolio/articles/</loc>
+    <lastmod>2020-01-07T16:47:30+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kaumil.github.io/portfolio/certifications/</loc>
     <lastmod>2020-01-07T16:47:30+00:00</lastmod>
     <priority>0.6</priority>
@@ -38,6 +44,11 @@
   
   <url>
     <loc>https://kaumil.github.io/portfolio/certifications/courseramachinelearning/</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/articles/courseramachinelearning/</loc>
     <priority>0.8</priority>
   </url>
   
@@ -261,6 +272,10 @@
   </url>
   
   <url>
+    <loc>https://kaumil.github.io/portfolio/tags/artificial-intelligence/</loc>
+  </url>
+  
+  <url>
     <loc>https://kaumil.github.io/portfolio/tags/big-data/</loc>
   </url>
   
@@ -282,6 +297,10 @@
   
   <url>
     <loc>https://kaumil.github.io/portfolio/tags/elasticsearch/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kaumil.github.io/portfolio/tags/interview/</loc>
   </url>
   
   <url>
