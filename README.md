@@ -1,2 +1,2 @@
 # portfolio_raw
-Raw code for portfolio
+Raw code for the portfolio.
