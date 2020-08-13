@@ -10,11 +10,12 @@ canonifyURLs = true
 
 [params]
 address = "Gujarat, IN"
-email = "Download Resume(pdf)"
+resume = "Download Resume(pdf)"
+email = "kaumil.trivedi97@gmail.com"
 favicon = "/favicon.ico"
 firstName = "Kaumil"
 lastName = "Trivedi"
-# phone = "+91-873-486-7989"
+phone = "(+91)-873-486-7989"
 profileImage = "img/profile_pic.jpg"
 showEducation = true
 showExperience = true
