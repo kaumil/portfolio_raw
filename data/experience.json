@@ -2,7 +2,7 @@
     {
         "role":"AI Developer",
         "company":"Areli Commerce Private Limited",
-        "summary":"\n- Working on Recommendation Engines using algorithms like Item-based collaborative filtering.\n- Building ETL pipelines consisting of stages of Data Ingestion, Feature Engineering, Model Training and Deployment",
+        "summary":"\n- Working on a mobile app called “Frendy” where I created a search system using AWS Elasticsearch and maintaining a system with 60000 queries a month.\n- Created a relevance sort algorithm for sorting products by custom metrics (promoting/demoting brands, price ranges, promotion of a particular product etc.)\n- Worked alongside the mobile developers to insert event triggers to monitor the health of the application and provide analytics.\n- Working on a recommender system using item-item collaborative filtering algorithm.",
         "range":"April 2019 - Present"
     },
     {
