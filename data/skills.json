@@ -4,7 +4,9 @@
       "skills":[ "Data Science","Machine Learning","Deep Learning","Web Scraping","Software Development"]
   },{
       "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Python","git"]
+      "skills":[
+        {"name":"Python","icon":"python"},
+        {"name":"git","icon":"git"}]
   },
   {
       "grouping":"Libraries & Frameworks",
@@ -26,8 +28,8 @@
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"Docker"},
-          {"name":"AWS"}
+          {"name":"docker","icon":"docker"},
+          {"name":"AWS","icon":"amazonaws"}
       ]
   }
 ]
