@@ -40,9 +40,9 @@ name = "LinkedIn"
 link = "https://github.com/kaumil"
 name = "GitHub"
 
-# [[params.handles]]
-# link = "https://bitbucket.org/eddiewebb/"
-# name = "Bitbucket"
+[[params.handles]]
+link = "https://www.kaggle.com/kaumil97"
+name = "Kaggle"
 
 # [[params.handles]]
 # link = "https://stackoverflow.com/users/story/82880"
