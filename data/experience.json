@@ -2,18 +2,21 @@
     {
         "role":"AI Developer",
         "company":"Areli Commerce Private Limited",
+        "company_url": "https://frendy.in/",
         "summary":"\n- Working on a mobile app called “Frendy” where I created a search system using AWS Elasticsearch and maintaining a system with 60000 queries a month.\n- Created a relevance sort algorithm for sorting products by custom metrics (promoting/demoting brands, price ranges, promotion of a particular product etc.)\n- Worked alongside the mobile developers to insert event triggers to monitor the health of the application and provide analytics.\n- Working on a recommender system using item-item collaborative filtering algorithm.",
         "range":"April 2019 - Present"
     },
     {
         "role":"AI Developer",
         "company":"Turabit Solutions Private Limited",
+        "company_url": "https://turabit.com/",
         "summary":"\n- Worked on development of chatbots and developed API to make the chatbot install software applications on target machine as well as schedule the chatbot to perform a certain function at a time selected by the user.\n- Trained ML Models to perform text classification and determine the intent of the user query and trigger the necessary functions required to complete the requested task",
         "range":"June 2018 - March 2019"
     },
     {
         "role":"Data Science Intern",
         "company":"SoftVan Inc.",
+        "company_url": "https://softvan.in/",
         "summary":"\n- Trained ML models for Insurance Fraud Detection, Loan Default Detection, Unsupervised Clustering as well as Object Detection using various architectures such as ResNet, AlexNet, and YOLO.",
         "range":"December 2017 - May 2018"
     }

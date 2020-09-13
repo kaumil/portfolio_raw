@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 @media (min-width: 992px) {
@@ -44,11 +45,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #343a40;
 }
 
 .list-social-icons a:hover {
-  color: #586085;
+  color: #C96567;
 }
 
 .list-social-icons a .fa-lg {
@@ -60,7 +61,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #586085;
+  color: #23395D;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -109,7 +110,7 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #23395D;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -135,19 +136,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #586085 !important;
+  background-color: #23395D !important;
 }
 
 .text-primary {
-  color: #586085 !important;
+  color: #23395D !important;
 }
 
 a {
-  color: #586085;
+  color: #420D09;
 }
 
 a:hover, a:focus, a:active {
-  color: #FF0000;
+  color: #9E5A63;
 }
 
 img {
