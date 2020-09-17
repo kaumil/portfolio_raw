@@ -26,6 +26,7 @@ showArticles = true
 showPublications = true
 showQr = false
 showSkills = true
+showBot = true
 
 # [params.google]
 #

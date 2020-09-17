@@ -28,7 +28,7 @@
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"docker","icon":"docker"},
+          {"name":"Docker","icon":"docker"},
           {"name":"AWS","icon":"amazonaws"}
       ]
   }

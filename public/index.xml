@@ -6,11 +6,7 @@
     <description>Recent content in Home on Kaumil Trivedi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate>
-    
-	<atom:link href="https://kaumil.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 10 Feb 2018 18:56:13 -0500</lastBuildDate><atom:link href="https://kaumil.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Hybrid Binary Classifier for Pattern Classification</title>
       <link>https://kaumil.github.io/portfolio/publications/binaryclassifier/</link>
@@ -154,7 +150,7 @@
       
       <guid>https://kaumil.github.io/portfolio/blog/force-ssl/</guid>
       <description>Intro Doesn&amp;rsquo;t matter whether it&amp;rsquo;s a CakePHP app for a client, your own personal CMS, or any other web based application. If your passing around passwords or other sensitive info you should really implement SSL. SSL provides 2 main perks to your visitors.
- First it encrypts all communication that flies across the web. This prevents curious or devious billies from getting your secrets. Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &amp;lsquo;man in the middle&amp;rdquo; attack.</description>
+ First it encrypts all communication that flies across the web. This prevents curious or devious billies from getting your secrets. Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &amp;lsquo;man in the middle&amp;quot; attack.</description>
     </item>
     
     <item>

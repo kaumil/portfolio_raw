@@ -5,6 +5,28 @@ body {
   background-color: #FFFFFF;
 }
 
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  right: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.topcorner{
+  position:absolute;
+  top:0;
+  right:0;
+ }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;

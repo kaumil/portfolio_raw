@@ -1,10 +1,9 @@
-
 <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 <div class="resume-item d-flex flex-column flex-md-row mb-3">
 
   <div class="resume-content " style="width:200px;!important;">
     {{with  .Params.image }}
-      <img src="{{ . }}" style="max-height:240px;max-width:200px;padding:15px;"/>
+      <a class="example-image-link" href="{{ . }}" data-lightbox="example-1"><img src="{{ . }}" style="max-height:240px;max-width:200px;padding:15px;" data-lightbox="example" /></a>
     {{ end }}
   </div>
   <div class="resume-date">

@@ -26,12 +26,16 @@
   
   <link rel="preload" href="https://kaumil.github.io/portfolio/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://kaumil.github.io/portfolio/css/resume.css"></noscript>
+  <link rel="preload" href="https://kaumil.github.io/portfolio/css/lightbox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://kaumil.github.io/portfolio/css/lightbox.min.css"></noscript>
   <link rel="preload" href="https://kaumil.github.io/portfolio/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://kaumil.github.io/portfolio/css/tweaks.css"></noscript>
   <link rel="preload" href="https://kaumil.github.io/portfolio/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://kaumil.github.io/portfolio/css/resume-override.css"></noscript>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <meta name="generator" content="Hugo 0.74.3" />
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
+  <meta name="generator" content="Hugo 0.75.0" />
   
    
   
@@ -131,12 +135,12 @@
 <p>Doesn&rsquo;t matter whether it&rsquo;s a CakePHP app for a client, your own personal CMS, or any other web based application. <strong>If your passing around passwords or other sensitive info you should really implement SSL.</strong> SSL provides 2 main perks to your visitors.</p>
 <ul>
 <li>First it encrypts all communication that flies across the web. This prevents curious or devious billies from getting your secrets.</li>
-<li>Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &lsquo;man in the middle&rdquo; attack.</li>
+<li>Secondly it ensures to the user that your server is in fact who it claims, and not a nasty &lsquo;man in the middle&quot; attack.</li>
 <li>Finally it gives your site that touch of class&hellip;. which of course a classy person like yourself relies on.</li>
 </ul>
 <p>Once you implement SSL certificates on your server you&rsquo;ll want to <strong>require secure connections</strong> using Apache&rsquo;s rewrite module. Now I won&rsquo;t dwell on the creation and signing of certificates, its already well documented.  If your just starting out though,heres a few links I recommend;</p>
 <ul>
-<li><a href="http://www.tc.umn.edu/~brams006/selfsign.html" title="Creating and Signing your own SSL Certificate">Creating self-signed certificates</a> (free, but should only be used internally or for testing, users will; see an &lsquo;Untrusted&rdquo; warning)</li>
+<li><a href="http://www.tc.umn.edu/~brams006/selfsign.html" title="Creating and Signing your own SSL Certificate">Creating self-signed certificates</a> (free, but should only be used internally or for testing, users will; see an &lsquo;Untrusted&quot; warning)</li>
 <li><a href="http://www.google.com/url?sa=t&amp;source=web&amp;ct=res&amp;cd=10&amp;url=http%3A%2F%2Fwww.lsu.edu%2Fpki%2FSSL_Certificate_Apache.pdf&amp;ei=Z8FcSbDRGaCY8gTdk7GHDQ&amp;usg=AFQjCNELddGd6jW1_Dv1X-CaocEVa4rV2A&amp;sig2=FQMNaM_RlhngJW3MSYiQzw" title="Generating a Certificate Signing Request">Requesting a CA Signed certificate</a> (not free, but the final certificate is trusted and seamless for users)</li>
 </ul>
 <p>The second link uses the schools internal CA, you will need to pay a public CA like Entrust or Verisign. <strong>All of this information is aimed at &lsquo;nix or solaris servers running apache</strong>. Why? cause a production windows server is laughable :-p</p>
@@ -188,6 +192,7 @@ RewriteRule ^/admin/(.*)$ https://%{SERVER_NAME}/admin/$1 \[R,L\]
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   
   <script async src="https://kaumil.github.io/portfolio/js/resume.js"></script>
+  <script src="https://kaumil.github.io/portfolio/js/lightbox-plus-jquery.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
   <script>
     window.dataLayer = window.dataLayer || [];

@@ -5,11 +5,7 @@
     <link>https://kaumil.github.io/portfolio/tags/tensorflow/</link>
     <description>Recent content in Tensorflow on Kaumil Trivedi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://kaumil.github.io/portfolio/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://kaumil.github.io/portfolio/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sentiment Analyzer</title>
       <link>https://kaumil.github.io/portfolio/projects/creations/cnn_sentiment_analysis/</link>

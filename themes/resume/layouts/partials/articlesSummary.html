@@ -10,7 +10,7 @@
   </div>
   <div class="resume-content " style="width:200px;!important;">
     {{with  .Params.image }}
-      <img src="{{ . }}" style="max-height:250px;max-width:250px;padding:10px;"/>
+      <a class="example-image-link" href="{{ . }}" data-lightbox="example-1"><img src="{{ . }}" style="max-height:250px;max-width:250px;padding:10px;" data-lightbox="example"/></a>
     {{ end }}
   </div>
 

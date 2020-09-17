@@ -5,11 +5,7 @@
     <link>https://kaumil.github.io/portfolio/tags/advanced-python/</link>
     <description>Recent content in Advanced Python on Kaumil Trivedi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://kaumil.github.io/portfolio/tags/advanced-python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://kaumil.github.io/portfolio/tags/advanced-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python 3: Deep Dive (Part 1-Functional)</title>
       <link>https://kaumil.github.io/portfolio/certifications/pythondeepdive1/</link>
