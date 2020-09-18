@@ -1,12 +1,43 @@
-<ul class="list-inline list-social-icons mb-0 bottomright">
-            {{ range .Site.Params.handles }}
-                <li class="list-inline-item">
-                  <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0 10" rel="me">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-            {{ end }}
-          </ul>
+<div class="chatbot" id="chatbox" style="top:10;">
+    <div class="row chat-window col-xs-5 col-md-3 pull-right" id="chat_window_1">
+        <div class="col-xs-12 col-md-12">
+          <div class="panel panel-default" id="panel">
+                <div class="top-bar">
+                    <div class="col-md-8 col-xs-8">
+                        <h3 class="panel-title">Chat Window </h3>
+                    </div>
+                </div>
+                <div id="messagebody" class="panel-body msg_container_base">
+                    <div class="row msg_container base_receive">
+                        <div class="col-md-10 col-xs-10">
+                            <div class="messages msg_receive">
+                                <p>Hi, Thanks for visiting my portfolio! Feel free to ask my bot any questions about me!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <div class="panel-footer" id="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm chat_input" placeholder="Say something..." required="required" />
+                        <i class="fa fa-microphone input-group-btn btn btn-primary btn-m chatbot-microphone" id="btn-microphone"></i>
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary btn-sm chatbot-send" id="btn-chat">Send</button>
+                        </span>
+                </div>
+        </div>
+        </div>
+
+</div>
+
+
+
+
+<div class="chatbot">
+    <ul class="list-inline list-social-icons mb-0">
+        <li class="list-inline-item">
+            <a><span class="iconify fa-stack fa-lg chatbot_icon" id="chatbot_icon" data-id="chat_window_1" data-icon="wpf:assistant" data-toggle="tooltip" data-offset="0 10" rel="me" data-inline="false"></span></a>
+        </li>
+    </ul>
+</div>

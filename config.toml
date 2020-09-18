@@ -1,5 +1,5 @@
 title = "Kaumil Trivedi"
-baseURL = "https://kaumil.github.io/portfolio"
+baseURL = "https://kaumil.github.io"
 theme = "resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
