@@ -33,6 +33,9 @@
   <link rel="preload" href="{{ "css/resume-override.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="{{ "css/resume-override.css" | absURL }}"></noscript>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
   {{ hugo.Generator }}
   {{ block "headfiles" . }}
    <!-- pl;aceholder -->
@@ -59,9 +62,6 @@
 
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
-  <!--<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>-->
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
 
   <!-- Plugin JavaScript -->
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

@@ -304,9 +304,11 @@ align-items: flex-end;
   box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
   background-color: #147efb;
 }
+
 .msg_sent > time{
   float: right;
 }
+
 .msg_container_base::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -347,6 +349,7 @@ align-items: flex-end;
   top:3px;
 }
 
+
 .chatbot-microphone{
   width: auto;
   margin-left: 15px;
@@ -358,16 +361,6 @@ align-items: flex-end;
   background-color: whitesmoke;
   border-color: whitesmoke;
   color: black;
-}
-.chatbot-microphone:focus{
-  background-color: whitesmoke;
-  border-color: whitesmoke;
-  color:black;
-}
-.chatbot-microphone:visited{
-  background-color:blue;
-  border-color: blue;
-  color:whitesmoke;
 }
 
 

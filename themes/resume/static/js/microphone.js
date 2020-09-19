@@ -17,7 +17,12 @@ recognition.maxAlternatives = 1;
 var textbox = $("#btn-input");
 var content = '';
 recognition.onstart = function(){
-    content = $("#btn-input").val()
+    $("#sym-microphone").toggle("fast");
+    content = $("#btn-input").val();
+}
+
+recognition.onend = function(){
+    $("#sym-microphone").toggle("fast");
 }
 
 recognition.onresult = function(event){
