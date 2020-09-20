@@ -78,27 +78,6 @@ $('#btn-input').keypress(function (e) {
 
 function make_response(query){
 
-    if (query.toLowerCase().includes("project")){
-        $("#link-projects")[0].click();
-    }
-    else if(query.toLowerCase().includes("certification")){
-        $("#link-certifications")[0].click();
-    }
-    else if(query.toLowerCase().includes("publication")){
-        $("#link-publications")[0].click();
-    }
-    else if(query.toLowerCase().includes("article")){
-        $("#link-articles")[0].click();
-    }
-    else if(query.toLowerCase().includes("experience")){
-        $("#link-experience")[0].click();
-    }
-    else if(query.toLowerCase().includes("educat")){
-        $("#link-education")[0].click();
-    }
-    else if(query.toLowerCase().includes("skill")){
-        $("#link-skills")[0].click();
-    }
     window.value.findAnswers(query, passage_data).then(answers => {
         if (answers.length == 0){
             setTimeout(respond("I am sorry my bot is unable to answer that question. Please feel free to reach me!"),2000);
@@ -112,6 +91,27 @@ function make_response(query){
                     response = element.text;
                 }                
             });
+            if (query.toLowerCase().includes("project")){
+                $("#link-projects")[0].click();
+            }
+            else if(query.toLowerCase().includes("certification")){
+                $("#link-certifications")[0].click();
+            }
+            else if(query.toLowerCase().includes("publication")){
+                $("#link-publications")[0].click();
+            }
+            else if(query.toLowerCase().includes("article")){
+                $("#link-articles")[0].click();
+            }
+            else if(query.toLowerCase().includes("experience")){
+                $("#link-experience")[0].click();
+            }
+            else if(query.toLowerCase().includes("educat")){
+                $("#link-education")[0].click();
+            }
+            else if(query.toLowerCase().includes("skill")){
+                $("#link-skills")[0].click();
+            }
             setTimeout(respond(response),2000);
         }
     });
