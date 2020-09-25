@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K-means clustering on Kaumil Trivedi</title>
+    <link>http://localhost:1313/tags/k-means-clustering/</link>
+    <description>Recent content in K-means clustering on Kaumil Trivedi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 12:41:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/k-means-clustering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topic Modeling</title>
+      <link>http://localhost:1313/projects/creations/topicmodeling/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      
+      <guid>http://localhost:1313/projects/creations/topicmodeling/</guid>
+      <description>Analysis of the 20 NewsGroup Dataset followed by lemmatization and k-means clustering and non-negative matrix factorization for topic modelling</description>
+    </item>
+    
+  </channel>
+</rss>
