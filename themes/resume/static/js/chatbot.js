@@ -112,7 +112,7 @@ function make_response(query){
             else if(query.toLowerCase().includes("skill")){
                 $("#link-skills")[0].click();
             }
-            setTimeout(respond(response),2000);
+            setTimeout(respond(response),1000);
         }
     });
     
