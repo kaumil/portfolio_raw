@@ -6,7 +6,7 @@
       "grouping":"Languages, Operating Systems & Tools",
       "skills":[
         {"name":"Python","icon":"python"},
-        {"name":"git","icon":"git"}]
+        {"name":"Git","icon":"git"}]
   },
   {
       "grouping":"Libraries & Frameworks",
