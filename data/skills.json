@@ -5,31 +5,31 @@
   },{
       "grouping":"Languages, Operating Systems & Tools",
       "skills":[
-        {"name":"Python","icon":"python"},
-        {"name":"Git","icon":"git"}]
+        {"name":"Python","icon":"simple-icons:python"},
+        {"name":"Git","icon":"simple-icons:git"}]
   },
   {
       "grouping":"Libraries & Frameworks",
       "skills":[
-        {"name":"Tensorflow","icon":"tensorflow"},
-        {"name":"PyTorch","icon":"pytorch"},
-        {"name":"Django","icon":"django"},
-        {"name":"Flask","icon":"flask"},
-        {"name":"Elasticsearch","icon":"elasticsearch"}
+        {"name":"Tensorflow","icon":"simple-icons:tensorflow"},
+        {"name":"PyTorch","icon":"simple-icons:pytorch"},
+        {"name":"Django","icon":"simple-icons:django"},
+        {"name":"Flask","icon":"simple-icons:flask"},
+        {"name":"Elasticsearch","icon":"simple-icons:elasticsearch"}
       ]
   },
   {
       "grouping":"Databases",
       "skills":[
-        {"name":"MySQL","icon":"mysql"},
-        {"name":"MongoDB","icon":"mongodb"}
+        {"name":"MySQL","icon":"simple-icons:mysql"},
+        {"name":"MongoDB","icon":"simple-icons:mongodb"}
       ]
   },
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"Docker","icon":"docker"},
-          {"name":"AWS","icon":"amazonaws"}
+          {"name":"Docker","icon":"simple-icons:docker"},
+          {"name":"AWS","icon":"simple-icons:amazonaws"}
       ]
   }
 ]

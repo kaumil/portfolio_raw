@@ -6,9 +6,10 @@
             <ul>
             {{ range .skills }}
                 {{ if isset . "name" }}
-                    {{ $devicon := lower .icon }}
+                    {{ $devicon := .icon }}
                     <li class="list-inline-item">
-                      <span class="iconify" data-icon="simple-icons:{{ $devicon }}" data-inline="false"></span>
+                      {{ $arr := split $devicon ":"}}
+                      <span class="iconify" data-icon="{{ index $arr 0 }}:{{ index $arr 1 }}" data-inline="false"></span>
                       {{if isset . "link"}}
                           <a href="{{.link}}">{{ .name }}</a>
                       {{ else }}
