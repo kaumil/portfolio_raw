@@ -35,47 +35,6 @@ $(document).on('click','.chatbot_icon',function(e){
     $("#panel-footer").slideToggle("medium");
 });
 
-
-
-// send function start  
-function send(){
-    var chat = $("#btn-input").val(); 
-
-    if (chat =="") {
-        alert('Empty input message!');
-    } else
-    {
-        var body = 
-            '<div class="row msg_container base_sent">' +
-                '<div class="col-md-10 col-xs-10 ">' +
-                    '<div class="messages msg_sent">' +
-                        '<p>'+ chat + '</p>'+
-                    '</div>' +
-                '</div>' +
-            '</div>';
-        
-        make_response(chat);
-        $("#btn-input").value = "";
-
-    }
-    $(body).appendTo("#messagebody");
-    $('#btn-input').val('');
-    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight}, 'medium');
-
-}
-
-
-// send function end
-$( "#btn-chat" ).click(function() {
-    send()
-});
-
-$('#btn-input').keypress(function (e) {
-    if (e.which == 13) {
-        send()
-    }
-});
-
 function make_response(query){
 
     window.value.findAnswers(query, passage_data).then(answers => {
@@ -117,6 +76,47 @@ function make_response(query){
     });
     
 }
+
+
+
+// send function start  
+function send(){
+    var chat = $("#btn-input").val(); 
+
+    if (chat =="") {
+        alert('Empty input message!');
+    } else
+    {
+        var body = 
+            '<div class="row msg_container base_sent">' +
+                '<div class="col-md-10 col-xs-10 ">' +
+                    '<div class="messages msg_sent">' +
+                        '<p>'+ chat + '</p>'+
+                    '</div>' +
+                '</div>' +
+            '</div>';
+        
+        make_response(chat);
+        $("#btn-input").value = "";
+
+    }
+    $(body).appendTo("#messagebody");
+    $('#btn-input').val('');
+    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight}, 'medium');
+
+}
+
+
+// send function end
+$( "#btn-chat" ).click(function() {
+    send()
+});
+
+$('#btn-input').keypress(function (e) {
+    if (e.which == 13) {
+        send()
+    }
+});
 
 
 //respond function start
