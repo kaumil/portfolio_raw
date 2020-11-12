@@ -2,113 +2,116 @@ var passage_data = "I am Kaumil Trivedi. My name is Kaumil Trivedi. I am 23yrs o
 
 
 $(document).on('focus', '.panel-footer input.chat_input', function (e) {
-var $this = $(this);
-if ($('#minim_chat_window').hasClass('panel-collapsed')) {
-    $this.parents('.panel').find('.panel-body').slideDown();
-    $('#minim_chat_window').removeClass('panel-collapsed');
-    $('#minim_chat_window').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-}
+    var $this = $(this);
+    if ($('#minim_chat_window').hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $('#minim_chat_window').removeClass('panel-collapsed');
+        $('#minim_chat_window').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+    }
 });
 
 
 $(document).on('click', '#new_chat', function (e) {
-var size = $( ".chat-window:last-child" ).css("margin-left");
+    var size = $(".chat-window:last-child").css("margin-left");
     size_total = parseInt(size) + 400;
-alert(size_total);
-var clone = $( "#chat_window_1" ).clone().appendTo( ".container" );
-clone.css("margin-left", size_total);
+    alert(size_total);
+    var clone = $("#chat_window_1").clone().appendTo(".container");
+    clone.css("margin-left", size_total);
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     $("#sym-microphone").toggle();
-    qna.load().then(model => {
-        window.value = model
-    });
-    setTimeout(function(){
-        $("#panel").fadeIn(200);
-        $("#panel-footer").fadeIn(200);
-    },800);
+    $("#chatbot_icon").toggle();
+    qna.load()
+        .then(model => {
+            window.value = model;
+            $("#panel").fadeIn(200);
+            $("#panel-footer").fadeIn(200);
+            $("#chatbot_icon").toggle();
+        })
+        .catch((e) => {
+            console.log(e);
+        });
 });
 
-$(document).on('click','.chatbot_icon',function(e){
+$(document).on('click', '.chatbot_icon', function (e) {
     $("#panel").slideToggle("medium");
     $("#panel-footer").slideToggle("medium");
 });
 
-function make_response(query){
+function make_response(query) {
 
     window.value.findAnswers(query, passage_data).then(answers => {
-        if (answers.length == 0){
-            setTimeout(respond("I am sorry my bot is unable to answer that question. Please feel free to reach me!"),2000);
+        if (answers.length == 0) {
+            setTimeout(respond("I am sorry my bot is unable to answer that question. Please feel free to reach me!"), 2000);
         }
-        else{
+        else {
             var max = 0;
             var response = "";
-            answers.forEach(function(element){
-                if (max < element.text.length){
+            answers.forEach(function (element) {
+                if (max < element.text.length) {
                     max = element.text.length;
                     response = element.text;
-                }                
+                }
             });
-            if (query.toLowerCase().includes("project")){
+            if (query.toLowerCase().includes("project")) {
                 $("#link-projects")[0].click();
             }
-            else if(query.toLowerCase().includes("certification")){
+            else if (query.toLowerCase().includes("certification")) {
                 $("#link-certifications")[0].click();
             }
-            else if(query.toLowerCase().includes("publication")){
+            else if (query.toLowerCase().includes("publication")) {
                 $("#link-publications")[0].click();
             }
-            else if(query.toLowerCase().includes("article")){
+            else if (query.toLowerCase().includes("article")) {
                 $("#link-articles")[0].click();
             }
-            else if(query.toLowerCase().includes("experience")){
+            else if (query.toLowerCase().includes("experience")) {
                 $("#link-experience")[0].click();
             }
-            else if(query.toLowerCase().includes("educat")){
+            else if (query.toLowerCase().includes("educat")) {
                 $("#link-education")[0].click();
             }
-            else if(query.toLowerCase().includes("skill")){
+            else if (query.toLowerCase().includes("skill")) {
                 $("#link-skills")[0].click();
             }
-            setTimeout(respond(response),1000);
+            setTimeout(respond(response), 1000);
         }
     });
-    
+
 }
 
 
 
 // send function start  
-function send(){
-    var chat = $("#btn-input").val(); 
+function send() {
+    var chat = $("#btn-input").val();
 
-    if (chat =="") {
+    if (chat == "") {
         alert('Empty input message!');
-    } else
-    {
-        var body = 
+    } else {
+        var body =
             '<div class="row msg_container base_sent">' +
-                '<div class="col-md-10 col-xs-10 ">' +
-                    '<div class="messages msg_sent">' +
-                        '<p>'+ chat + '</p>'+
-                    '</div>' +
-                '</div>' +
+            '<div class="col-md-10 col-xs-10 ">' +
+            '<div class="messages msg_sent">' +
+            '<p>' + chat + '</p>' +
+            '</div>' +
+            '</div>' +
             '</div>';
-        
+
         make_response(chat);
         $("#btn-input").value = "";
 
     }
     $(body).appendTo("#messagebody");
     $('#btn-input').val('');
-    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight}, 'medium');
+    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight }, 'medium');
 
 }
 
 
 // send function end
-$( "#btn-chat" ).click(function() {
+$("#btn-chat").click(function () {
     send()
 });
 
@@ -120,19 +123,19 @@ $('#btn-input').keypress(function (e) {
 
 
 //respond function start
-function respond(response){
-    
-    var body = 
+function respond(response) {
+
+    var body =
         '<div class="row msg_container base_receive">' +
-            '<div class="col-md-10 col-xs-10">' +
-                '<div class="messages msg_receive">'+
-                    '<p>' + response + '</p>' +
-                '</div>' +
-            '</div>' +
+        '<div class="col-md-10 col-xs-10">' +
+        '<div class="messages msg_receive">' +
+        '<p>' + response + '</p>' +
+        '</div>' +
+        '</div>' +
         '</div>';
-    
+
     $(body).appendTo("#messagebody");
     $('#btn-input').val('');
-    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight}, 'medium');
+    $("#messagebody").animate({ scrollTop: $("#messagebody")[0].scrollHeight }, 'medium');
 }
 //respond function end
