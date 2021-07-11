@@ -1,35 +1,76 @@
 [
   {
-      "grouping":"Architecture",
-      "skills":[ "Data Science","Machine Learning","Deep Learning","Web Scraping","Software Development"]
-  },{
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[
-        {"name":"Python","icon":"simple-icons:python"},
-        {"name":"Git","icon":"simple-icons:git"}]
+    "grouping": "Architecture",
+    "skills": [
+      "Data Science",
+      "Machine Learning",
+      "Deep Learning",
+      "Web Scraping",
+      "Software Development"
+    ]
   },
   {
-      "grouping":"Libraries & Frameworks",
-      "skills":[
-        {"name":"Tensorflow","icon":"simple-icons:tensorflow"},
-        {"name":"PyTorch","icon":"simple-icons:pytorch"},
-        {"name":"Django","icon":"simple-icons:django"},
-        {"name":"Flask","icon":"simple-icons:flask"},
-        {"name":"Elasticsearch","icon":"simple-icons:elasticsearch"}
-      ]
+    "grouping": "Languages, Operating Systems & Tools",
+    "skills": [
+      {
+        "name": "Python",
+        "icon": "simple-icons:python"
+      },
+      {
+        "name": "Git",
+        "icon": "simple-icons:git"
+      }
+    ]
   },
   {
-      "grouping":"Databases",
-      "skills":[
-        {"name":"MySQL","icon":"simple-icons:mysql"},
-        {"name":"MongoDB","icon":"simple-icons:mongodb"}
-      ]
+    "grouping": "Libraries & Frameworks",
+    "skills": [
+      {
+        "name": "Tensorflow",
+        "icon": "simple-icons:tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "simple-icons:pytorch"
+      },
+      {
+        "name": "FastAPI",
+        "icon": "simple-icons:fastapi"
+      },
+      {
+        "name": "Flask",
+        "icon": "simple-icons:flask"
+      },
+      {
+        "name": "Elasticsearch",
+        "icon": "simple-icons:elasticsearch"
+      }
+    ]
   },
   {
-    "grouping":"Containers & Cloud",
-      "skills":[
-          {"name":"Docker","icon":"simple-icons:docker"},
-          {"name":"AWS","icon":"simple-icons:amazonaws"}
-      ]
+    "grouping": "Databases",
+    "skills": [
+      {
+        "name": "MySQL",
+        "icon": "simple-icons:mysql"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "simple-icons:mongodb"
+      }
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {
+        "name": "Docker",
+        "icon": "simple-icons:docker"
+      },
+      {
+        "name": "AWS",
+        "icon": "simple-icons:amazonaws"
+      }
+    ]
   }
 ]
