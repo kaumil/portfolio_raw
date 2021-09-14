@@ -1,4 +1,4 @@
-var passage_data = "I am Kaumil Trivedi. My name is Kaumil Trivedi. I am 23yrs old.I currently work as AI Developer at Areli Commerce Private Limited. I have been working since the past 1.5yrs of experience at my current company. I have 2yrs of professional work experience.I have experience in the fields of Data Science, Machine Learning and Deep Learing. My skills include Python, Tensorflow, PyTorch, Django, Flask, MySQL, MongoDB, Docker and AWS. I have done projects on face-emotion recognition, sentiment analysis, and blogging platform. Yes I have done certifications in the fields of Data Science and Machine Learning. I have gained certifications from deeplearning.ai, Stanford University and Indian Institute of Technology in the domains of Deep Learning, Machine Learning and Data Science. I have published a paper on Hybrid Binary Classifiers using SVMs and Decision Trees. I have had the opportunity to give an interview at R3plica on AI. My previous work experience was at Turabit Solutions Pvt Ltd and Softvan Inc. Education: Did Schooling at HBK in Ahmedabad and Undergraduation from Gujarat Technological University."
+var passage_data = "I am Kaumil Trivedi. My name is Kaumil Trivedi. I was born on 4th of July,1997 at Ahmedabad, India. I am 24yrs old.I am currently doing Masters in Computer Science (Big Data Specialization) at Simon Fraser University. I have 2.5yrs of professional work experience.I have experience in the fields of Data Science, Machine Learning and Deep Learing. My skills include Python, Tensorflow, PyTorch, Django, Flask, MySQL, MongoDB, Docker and AWS. I have done projects on face-emotion recognition, sentiment analysis, and blogging platform. I have gotten certifications from Amazon Web Services, deeplearning.ai, Stanford University and Indian Institute of Technology in the domains of Cloud Computing, Deep Learning, Machine Learning and Data Science. I have published a paper on Hybrid Binary Classifiers using SVMs and Decision Trees. I have had the opportunity to give an interview at R3plica on AI. My previous work experience was at Areli Commerce Private Limited, Turabit Solutions Pvt Ltd and Softvan Inc. I am currently studying Professional Masters in Computing Science, Big Data Specialization."
 
 
 $(document).on('focus', '.panel-footer input.chat_input', function (e) {
@@ -70,6 +70,9 @@ function make_response(query) {
                 $("#link-experience")[0].click();
             }
             else if (query.toLowerCase().includes("educat")) {
+                $("#link-education")[0].click();
+            }
+            else if (query.toLowerCase().includes("study")) {
                 $("#link-education")[0].click();
             }
             else if (query.toLowerCase().includes("skill")) {
