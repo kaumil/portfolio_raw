@@ -2,7 +2,7 @@
 title: "Spark and Python for Big Data with PySpark"
 issueddate: September 2019
 expireddate: Present
-featured: false
+featured: true
 organization: "Udemy"
 description: "I learnt how to use PySpark client api to leverage the power of Apache Spark and solve big data problems. I learnt how to use Spark 2.0 DataFrame API as well as use the Spark Mllib library to train machine learning models."
 image: "/img/udemysparkpython.png"

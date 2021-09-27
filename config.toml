@@ -11,7 +11,8 @@ canonifyURLs = true
 [params]
 address = "BC, Canada"
 resume = "Download Resume(pdf)"
-email = "kaumil.trivedi97@gmail.com"
+email1 = "kaumil.trivedi97@gmail.com"
+email2 = "kaumil_trivedi@sfu.ca"
 favicon = "/favicon.ico"
 firstName = "Kaumil"
 lastName = "Trivedi"

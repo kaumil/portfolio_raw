@@ -2,7 +2,7 @@
 title: "Taming Big Data with Apache Spark and Python - Hands On!"
 issueddate: August 2019
 expireddate: Present
-featured: false
+featured: true
 organization: "Udemy"
 description: "This course taught me the mechanism behind Big Data. I learnt what is Hadoop and YARN, in addition to Apache Spark"
 image: "/img/udemytamingbigdata.png"
