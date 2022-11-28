@@ -7,20 +7,6 @@
         "range": "May 2022 - Present"
     },
     {
-        "role": "Owner and Author",
-        "company": "DataScienceandEngineering.com",
-        "company_url": "https://datascienceandengineering.com/",
-        "summary": "\n- Developed a blogging website using Wordpress which documents projects as a series of blogs similar to chapters of a book. Users can follow along with a project to learn about and implement it.",
-        "range": "April 2021 - Feb 2022"
-    },
-    {
-        "role": "Freelancer and Blogger",
-        "company": "Self-Employed",
-        "company_url": "",
-        "summary": "\n- Developed a search engine to import and index data from the O*NET database to build the backend of a job portal for job seekers. Used Elasticsearch as the engine to search about 100k rows with about 150 features. Used FastAPI for async indexing and Jinja2 as a template engine.\n- Developed a system to create question and answer from english corpuses uploaded by the user using a HuggingFace transformer and load the question-answer pair to a backend RDS database.",
-        "range": "April 2021 - Feb 2022"
-    },
-    {
         "role": "AI Developer",
         "company": "Areli Commerce Private Limited",
         "company_url": "https://frendy.in/",
