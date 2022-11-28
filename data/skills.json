@@ -6,7 +6,8 @@
       "Machine Learning",
       "Deep Learning",
       "Web Scraping",
-      "Software Development"
+      "Software Development",
+      "DevOps"
     ]
   },
   {
@@ -19,6 +20,10 @@
       {
         "name": "Git",
         "icon": "simple-icons:git"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "simple-icons:javascript"
       }
     ]
   },
@@ -34,16 +39,40 @@
         "icon": "simple-icons:pytorch"
       },
       {
-        "name": "FastAPI",
-        "icon": "simple-icons:fastapi"
-      },
-      {
         "name": "Flask",
         "icon": "simple-icons:flask"
       },
       {
+        "name": "Kubernetes",
+        "icon": "simple-icons:kubernetes"
+      },
+      {
         "name": "Elasticsearch",
         "icon": "simple-icons:elasticsearch"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "simple-icons:jenkins"
+      },
+      {
+        "name": "Kibana",
+        "icon": "simple-icons:kibana"
+      },
+      {
+        "name": "Grafana",
+        "icon": "simple-icons:grafana"
+      },
+      {
+        "name": "Pingdom",
+        "icon": "simple-icons:pingdom"
+      },
+      {
+        "name": "Prometheus",
+        "icon": "simple-icons:prometheus"
+      },
+      {
+        "name": "CloudFoundry",
+        "icon": "simple-icons:cloudfoundry"
       }
     ]
   },
@@ -57,6 +86,10 @@
       {
         "name": "MongoDB",
         "icon": "simple-icons:mongodb"
+      },
+      {
+        "name": "CassandraDB",
+        "icon": "simple-icons:cassandra"
       }
     ]
   },

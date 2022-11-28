@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-A data science and machine learning enthusiast with experience developing analytics solutions and deploying as well as managing them.
+A graduate student, and current SAP Cloud Engineer intern with 3 years of experience developing and scaling machine learning solutions to improve customer experience.
